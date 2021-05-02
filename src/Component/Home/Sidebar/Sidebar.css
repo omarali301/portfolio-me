@@ -1,0 +1,23 @@
+.sidebar{
+    background-image: linear-gradient(40deg, #19d3ae,#0fcfec);
+    position: fixed;
+}
+.sidebar li{
+    margin-bottom: 2em;
+}
+.sidebar li:hover span{
+    display: inline-block;
+    transform: translate(5px);
+}
+.sidebar svg{
+    margin-right: 5px;
+}
+.topImg img{
+height:250px;
+border: 1px solid white;
+border-radius: 70%;
+margin-bottom: 30px;
+}
+.Sname{
+    color: white;
+}
