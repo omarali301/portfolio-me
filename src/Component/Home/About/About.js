@@ -10,7 +10,7 @@ const About = () => {
                     <img src={omar} alt=""/>
                 </div>
                 <div className="col-md-6 abContant">
-                    <h1 className="text-left about">About Me</h1>
+                    <h1 id="about" className="text-left about">About Me</h1>
                     <p className="justify-content-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere nemo laborum 
                         voluptatibus nisi inventore placeat eum quaerat qui repellendus quo, alias esse 
                         reiciendis tenetur recusandae cumque doloribus iste voluptas at saepe unde impedit
@@ -28,6 +28,7 @@ const About = () => {
 
                
             </div>
+            
         </div>
     );
 };

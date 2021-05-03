@@ -19,29 +19,29 @@ const Sidebar = () => {
             <h3 className="Sname"> Md. Omar Ali </h3>
             <hr></hr>
             <li>
-                <HashLink to="#/home" className="text-white">
+                <HashLink to="#home" className="text-white">
                     <FontAwesomeIcon icon={faHome} /> <span>Home</span> 
                 </HashLink >
             </li>
                 <li>
-                    <HashLink to="/about" className="text-white">
+                    <HashLink to="#about" className="text-white">
                         <FontAwesomeIcon icon={faGripHorizontal} /> <span>About</span> 
                     </HashLink >
                 </li>
                 <li>
-                    <Link to="/review" className="text-white">
+                    <HashLink to="#service" className="text-white">
                         <FontAwesomeIcon icon={faUsers} /> <span>Service</span> 
-                    </Link>
+                    </HashLink>
                 </li>
                 <li>
-                    <Link to="#/blog" className="text-white">
+                    <HashLink to="#blog" className="text-white">
                         <FontAwesomeIcon icon={faUsers} /> <span>Blog</span> 
-                    </Link>
+                    </HashLink>
                 </li>
                 <li>
-                    <Link to="/review" className="text-white">
+                    <HashLink to="#contact" className="text-white">
                         <FontAwesomeIcon icon={faUsers} /> <span>Contact</span> 
-                    </Link>
+                    </HashLink>
                 </li>
              
             </ul>

@@ -7,7 +7,7 @@ const Contact = () => {
 <div className="container mt-5">
 
   <div className="row m-5">
-    <h1 className="m-5 text-center">Contact</h1>
+    <h1 id="contact" className="m-5 text-center">Contact</h1>
     <div className="col-md-6">
     <form class="row g-3">
   <div class="col-md-6">

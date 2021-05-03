@@ -8,9 +8,10 @@ const Footer = () => {
                 <div className="col-md-4">
                     <ul>
                         <h5 className="text-center">about us</h5>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos 
-                            sed laborum amet, repudiandae corrupti ipsum officia voluptates beatae
-                             officiis optio.</p>
+                        <p>To develop career in any recognized organization through
+                             my aptitude, hard work, enthusiasm, sincerity, diligence, 
+                             dedication and determination where creativity and sincerity
+                              are appreciated and flourish opportunities are available to be professional.</p>
 
                     </ul>
                 </div>
